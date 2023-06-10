@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: sans-serif;
+}
+.container{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.common-form{
+
+    text-align: center;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 420px;
+
+}
+.form-input{
+    margin: 20px;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 10px ;
+
+    border: 2px solid aquamarine;
+
+
+}
+.form-button{
+    margin: 20px;
+    height: 40px;
+    border: 2px solid aquamarine;
+    border-radius: 10px ;
+}
+
+.form-button:hover , .form-input:hover {
+    border: 2px solid rgb(31, 203, 146);
+}
