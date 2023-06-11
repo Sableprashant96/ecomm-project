@@ -10,6 +10,8 @@ import { SignUp } from '../data-type';
 })
 export class SellerAuthComponent implements OnInit{
 
+  showLogin=false;
+
   constructor( private Seller : SellerService, private router: Router){
 
   }
@@ -28,5 +30,29 @@ export class SellerAuthComponent implements OnInit{
     });
 
   }
+
+  ShowLogin(){
+    if (this.showLogin){
+      this.showLogin=false;
+    } else {
+      this.showLogin=true;
+    }
+    
+  }
+
+
+
+  LogIn(data:SignUp):void{
+
+    //api calling
+    // console.warn(data)
+    // this.Seller.userSignUp(data).subscribe((result)=>{
+    //   console.warn(result)
+    //   if (result){
+    //     this.router.navigate(['seller-home'])
+    //   }
+
+    // });
+
 
 }

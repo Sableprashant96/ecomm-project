@@ -1,0 +1,17 @@
+h2 {
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 5px;
+    background:linear-gradient(120deg, aqua 0%, aquamarine 100%);
+    }
+
+.toggle-log{
+    cursor: pointer;
+    color: aquamarine;
+}
+
+.toggle-log:hover{
+
+    color: rgb(13, 118, 83);
+}
